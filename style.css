@@ -1,0 +1,108 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    text-align: center;
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #262626;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+h2 {
+    font-size: 3.25rem;
+}
+
+a {
+    color: hsl(220, 80%, 20%);
+}
+
+a:visited {
+    color: hsl(260, 80%, 20%);
+}
+
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+#img-div {
+    max-width: 800px;
+    background: hsl(0, 0%, 100%);
+    margin: 40px auto 50px auto;
+    padding: 20px 20px 20px 20px;
+}
+
+#img-caption {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+figcaption {
+    padding: 10px 0 0 0;
+}
+
+ul {
+    max-width: 800px;
+    margin: 10px auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    background: hsl(0, 0%, 100%);
+}
+li {
+    margin: 20px 10px;
+    padding: 30px 10px 0 10px;
+}
+li:last-child {
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 1.8em;
+}
+p {
+    font-size: 18px;
+}
+
+.details {
+    margin: 0 auto 50px auto;
+    font-style: italic;
+}
+blockquote {
+    font-style: italic;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
